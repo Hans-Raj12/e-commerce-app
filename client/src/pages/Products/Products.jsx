@@ -1,5 +1,5 @@
 import react from "react";
-
+import './Products.scss'
 const Products = () => {    
     return (
         <div>
