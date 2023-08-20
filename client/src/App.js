@@ -9,10 +9,10 @@ import Product from "./pages/Product/Product";
 
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
-
+import './app.scss'
 const Layout = ({children}) => {
   return (
-    <div>
+    <div className="app">
       <NavBar/>
       <Outlet/>
       <Footer/>
