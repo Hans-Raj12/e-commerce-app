@@ -1,0 +1,30 @@
+{
+  "name": "api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.12.6",
+    "@strapi/plugin-users-permissions": "4.12.6",
+    "@strapi/plugin-i18n": "4.12.6",
+    "mysql": "2.18.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "1005c9ef-0a58-4f94-9a77-c4144371a2fb"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
